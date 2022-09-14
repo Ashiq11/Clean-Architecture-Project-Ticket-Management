@@ -1,4 +1,4 @@
-# Clean-Architecture-Project-TicketManagement-
+# Clean-Architecture-Project-Ticket-Management
 
 A solid architecture for .Net Core applications
 
