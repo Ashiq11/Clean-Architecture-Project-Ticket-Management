@@ -20,7 +20,7 @@ Requirements for Ticket Management
 
 ![image](https://user-images.githubusercontent.com/26449604/190203186-5791476b-d71b-4ab4-86aa-7c1f4be9bb4c.png)
 
-![image](https://user-images.githubusercontent.com/26449604/190202237-73ad0126-4846-4301-9130-56dba9e231bf.png)
+![image](https://user-images.githubusercontent.com/26449604/190203821-ab4369b9-a88b-4fc1-a9de-c76746a23c23.png)
 
 ![image](https://user-images.githubusercontent.com/26449604/190202364-f35040df-f3bb-4974-a4cc-f0ae16892adc.png)
 
