@@ -12,6 +12,7 @@ ASP.NET Core & EF Core
 
 GloboTicket Ticket Management
 - Manage events, ticket sales etc
+
 Requirements for Ticket Management
 -Manage events
 -Overview of events in their categories
