@@ -10,10 +10,10 @@ REST APIs with ASP.NET Core
 
 ASP.NET Core & EF Core
 
-GloboTicket Ticket Management
+About GloboTicket Ticket Management
 - Manage events, ticket sales etc
 
 Requirements for Ticket Management
--Manage events
--Overview of events in their categories
--Orders for the different events
+- Manage events
+- Overview of events in their categories
+- Orders for the different events
