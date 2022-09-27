@@ -38,7 +38,7 @@ namespace GloboTicket.TicketManagement.Application.Features.Events.Commands.Crea
             @event = await _eventRepository.AddAsync(@event);
 
             //Sending email notification to admin address
-            var email = new Email() { To = "gill@snowball.be", Body = $"A new event was created: {request}", Subject = "A new event was created" };
+            var email = new Email() { To = "ashiqchowdhury.ac@gmail.com", Body = $"A new event was created: {request}", Subject = "A new event was created" };
 
             try
             {
