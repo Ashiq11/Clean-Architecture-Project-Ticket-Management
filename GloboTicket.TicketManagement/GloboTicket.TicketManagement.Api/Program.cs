@@ -6,10 +6,17 @@ using GloboTicket.TicketManagement.Application.Contracts;
 using GloboTicket.TicketManagement.Identity;
 using GloboTicket.TicketManagement.Infrastructure;
 using GloboTicket.TicketManagement.Persistence;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+Log.Logger = new LoggerConfiguration()
+               .ReadFrom.Configuration(builder.Configuration)
+               .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
+               .CreateLogger();
+builder.Logging.ClearProviders();
+builder.Logging.AddSerilog(Log.Logger);
 
 // Add services to the container.
 
@@ -91,6 +98,7 @@ app.UseHttpsRedirection();
 app.UseCors("Open");
 app.UseCustomExceptionHandler();
 app.UseRouting();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>
